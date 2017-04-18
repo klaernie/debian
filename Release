@@ -1,5 +1,13 @@
-Archive: any
-Origin: Andre Klaerner
-Label: ak-online
-Component: main
-Architecture: all
+Date: Tue, 18 Apr 2017 17:33:04 +0000
+MD5Sum:
+ fdaf570425f86acf15587e33bef388de              825 Packages.gz
+ bda81f5aac7da129a97d069ed0ec52a6               38 Release
+SHA1:
+ f1defd59324beddabea880f3f68b6aba730c7617              825 Packages.gz
+ 462a4760ef99f73cd8bb12302faed757f9596494               38 Release
+SHA256:
+ d37dfdb2cb8a78e508f7ef4e26ed73c5d652919ed19975a13be9f22dc02eafc6              825 Packages.gz
+ e5d5f35c957435775bc7298dfbebb2658c5a2c63fdc53cc868f1509aa953b496               38 Release
+SHA512:
+ 8001ebde31adc6208f20964dbc0cd24144233f248eb61c4d63288d54948365f103fdd65506c129b6c3f9cdd30d91c97de80495474e6521a0a18fce7c0c5e1e71              825 Packages.gz
+ 8b95b476a34c5bba30075f38ae1a0f61817fa15bab29c3e81af9a89da4c6d7276504a9bb21e3561200de165f57356e83235617877aac5be05b0527fcb246f117               38 Release
