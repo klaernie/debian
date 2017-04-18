@@ -1,0 +1,5 @@
+Component: main
+Origin: ak-online.be private repository
+Label: ak-online
+Architecture: amd64
+Description: private ak-online.be repository
