@@ -1,6 +1,7 @@
 #!/bin/bash
 cd "$(dirname "$0")"
-apt-ftparchive packages . | gzip --fast > Packages.gz
+apt-ftparchive packages . > Packages
+gzip -9 <Packages >Packages.gz
 apt-ftparchive release . >Release
 gpg --armor --sign --detach-sign --output - Release >Release.gpg
 git add .

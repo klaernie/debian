@@ -1,0 +1,38 @@
+Package: trscripts
+Architecture: all
+Version: 1.18
+Priority: optional
+Section: utils
+Maintainer: Anton Zinoviev <zinoviev@debian.org>
+Installed-Size: 2453
+Filename: ./trscripts_1.18+ak_all.deb
+Size: 93516
+MD5sum: a214f98205ca3392ef36ffe1af84ab03
+SHA1: f57d9d9b22e7f817a74d298844ccd57b095d5f40
+SHA256: f361d26b2eefb11792945e8215db12569b00338308b826dc2219f3ad4d576d76
+SHA512: 131115f31805da1a945c71a5502ffc60e2eb834234774dff2b44da8c3bb5b729116155c1adef87700b2c5181f3603654d854adbd2ad4cefe1b4dd2d0f151fe73
+Description: Scripts for reencoding text files and BDF-fonts
+ The script `trbdf' can convert a BDF font from one codeset
+ to another.
+ .
+ The script `trcs' reencodes text files from one codeset to another.
+ It can generate scripts for `tr'. For example the command
+  trcs --from cp1252 --to latin1 --gen-script
+ gives you the following output:
+  #!/bin/sh
+ .
+  trap "exit 0" PIPE
+ .
+  cat "$@" | tr \
+  '\200''\201''\202''\203''\204''\205''\206''\207''\210''\211''\212'\
+  '\213''\214''\215''\216''\217''\220''\221''\222''\223''\224''\225'\
+  '\226''\227''\230''\231''\232''\233''\234''\235''\236''\237'  \
+  '\105''\77''\47''\146''\42''\267''\53''\77''\136''\77''\123'\
+  '\253''\117''\77''\132''\77''\77''\47''\47''\42''\42''\267'\
+  '\-''\-''\176''\77''\163''\273''\157''\77''\172''\131'
+ .
+ Both scripts try to approximate the missing from the target codeset
+ symbols.
+ .
+ It is easy to add support of other character sets.
+
