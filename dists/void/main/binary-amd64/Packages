@@ -1,17 +1,17 @@
 Package: meta
-Version: 1.0
+Version: 1.1
 Architecture: all
 Maintainer: Andre Klaerner <kandre@ak-online.be>
 Installed-Size: 9
-Depends: awesome, zsh, vim-gtk3, git, screen, rxvt-unicode
+Depends: awesome, git, screen, redshift-gtk, rxvt-unicode, vim-gtk3, zsh
 Multi-Arch: foreign
 Priority: optional
 Section: misc
-Filename: pool/main/m/meta/meta_1.0_all.deb
-Size: 2110
-SHA256: 9776475a8b402a245a632f31c061fbfcc6a322a3169ad20bdf89e47e1af612c0
-SHA1: 9289ea7eef2f0a0416e911848c46e8d620a80d30
-MD5sum: bb6e019ec4f4350448675391f1c84e9e
+Filename: pool/main/m/meta/meta_1.1_all.deb
+Size: 2172
+SHA256: 020c5424abb43c8d136b8369255178e603cef5c10f8afe94fb4ad74642ee738b
+SHA1: 2ecc49b1640bbcf9b4c289c963a71c51f6144f97
+MD5sum: 9abefe971436d8988a22bd0fec54de25
 Description: depend on my essential tools
 
 Package: trscripts
