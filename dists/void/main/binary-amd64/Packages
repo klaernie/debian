@@ -1,3 +1,38 @@
+Package: ca-cacert
+Version: 2017.0422-1
+Architecture: all
+Maintainer: Dmitry Smirnov <onlyjob@debian.org>
+Installed-Size: 22
+Depends: ca-certificates (>= 20140223)
+Enhances: ca-certificates
+Multi-Arch: foreign
+Homepage: https://www.cacert.org
+Priority: optional
+Section: misc
+Filename: pool/main/c/ca-cacert/ca-cacert_2017.0422-1_all.deb
+Size: 7398
+SHA256: b11c9b3e9b6e2ab5b278af19db13ddc29bad9b7f43f8329d8bad4a798a753b7f
+SHA1: 3fb352f94f2d7e6cc003fa3faaf7a64c5e636c6f
+MD5sum: 70c5633b04dd73d969c00fb7cc0acf4c
+Description: CAcert.org root certificates
+ This package provides CAcert.org (sub-)root certificates in PEM format.
+ Root certificates allow SSL-based applications to check for the
+ authenticity of certificates issued by the CAcert authority.
+ .
+ CAcert.org is a community-driven Certificate Authority that issues
+ certificates to the public for free.
+ .
+ CAcert's goal is to promote awareness and education on computer security
+ through the use of encryption, specifically by providing cryptographic
+ certificates. These certificates can be used to digitally sign and encrypt
+ email, authenticate and authorize users connecting to websites and secure
+ data transmission over the internet. Any application that supports the
+ Secure Socket Layer Protocol (SSL or TLS) can make use of certificates
+ signed by CAcert, as can any application that uses X.509 certificates,
+ e.g. for encryption or code signing and document signatures.
+ .
+ Please note that CAcert may not yet comply with RFC 3647 or similar standards.
+
 Package: meta
 Version: 1.1
 Architecture: all
