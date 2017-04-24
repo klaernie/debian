@@ -87,7 +87,7 @@ Description: Scripts for reencoding text files and BDF-fonts
  It is easy to add support of other character sets.
 
 Package: xfonts-terminus
-Version: 4.40-2
+Version: 4.40-2.1
 Architecture: all
 Maintainer: Anton Zinoviev <zinoviev@debian.org>
 Installed-Size: 1609
@@ -95,11 +95,11 @@ Depends: xfonts-utils (>= 1:7.5+2)
 Suggests: xserver | xfs, xfonts-terminus-oblique
 Priority: optional
 Section: fonts
-Filename: pool/main/x/xfonts-terminus/xfonts-terminus_4.40-2_all.deb
-Size: 1340832
-SHA256: efec1beda2dd0ba844957eda9619ea9494d21e2d92c56a0846c7ea6b435a6ca6
-SHA1: 0301da0730c1c48ffdb3b89e2011e0fd9b49eed0
-MD5sum: 60068ae46bf354bcc1d9a0e6f2efec2f
+Filename: pool/main/x/xfonts-terminus/xfonts-terminus_4.40-2.1_all.deb
+Size: 1341058
+SHA256: 9d4a5b7fb98e918fab6071d0c0cc5b9315e0b416ce819876502ff2b576a97b5f
+SHA1: 62903716767543e1f4421ff0657a6f0f3bc1fa9f
+MD5sum: fa6013cf407962b4a2da0bc8c25e73aa
 Description: Fixed-width fonts for fast reading
  These are fixed-width fonts suitable for terminals, editors, etc.
  If you have to work for extended time in front of monitor (i.e. over
@@ -114,7 +114,7 @@ Description: Fixed-width fonts for fast reading
 
 Package: xfonts-terminus-dos
 Source: xfonts-terminus
-Version: 4.40-2
+Version: 4.40-2.1
 Architecture: all
 Maintainer: Anton Zinoviev <zinoviev@debian.org>
 Installed-Size: 1247
@@ -123,11 +123,11 @@ Suggests: xserver | xfs
 Enhances: dosemu
 Priority: optional
 Section: fonts
-Filename: pool/main/x/xfonts-terminus/xfonts-terminus-dos_4.40-2_all.deb
-Size: 1029344
-SHA256: 91aa1de709e171011d3477199cc5a547a05804dae71c459090f115a61820f0e1
-SHA1: df0710e064c070cbea5118d1eba1cca4adf875a7
-MD5sum: 29b19267a154227e76e22505be461596
+Filename: pool/main/x/xfonts-terminus/xfonts-terminus-dos_4.40-2.1_all.deb
+Size: 1029364
+SHA256: 647c8c123328b639accbcedea4b759e072f60dd58e4e378e47749f7aceb4dc45
+SHA1: b556c16c53e0d81d01aab279477ad610d4dcc8e9
+MD5sum: d098f65dcca0089c7e5bb4d57ef25fb0
 Description: Fixed-width fonts for DOS encodings
  These are nice fixed-width fonts in various DOS encodings.  They are
  mostly suitable for use in Dosemu, but can be used also in
@@ -138,7 +138,7 @@ Description: Fixed-width fonts for DOS encodings
 
 Package: xfonts-terminus-oblique
 Source: xfonts-terminus
-Version: 4.40-2
+Version: 4.40-2.1
 Architecture: all
 Maintainer: Anton Zinoviev <zinoviev@debian.org>
 Installed-Size: 1751
@@ -147,11 +147,11 @@ Recommends: xfonts-terminus
 Suggests: xserver | xfs
 Priority: extra
 Section: fonts
-Filename: pool/main/x/xfonts-terminus/xfonts-terminus-oblique_4.40-2_all.deb
-Size: 1500876
-SHA256: 294c704a7d6b819c203c62de9270dc798de3d1d0dff797616e5d3cf037a0b5eb
-SHA1: 2ca2ab8d59a9bc61fce2efadb64d1e3cfa7d8917
-MD5sum: bb006e88dea2f6be7173710485fffa8f
+Filename: pool/main/x/xfonts-terminus/xfonts-terminus-oblique_4.40-2.1_all.deb
+Size: 1500964
+SHA256: e3809630aaf285d704fa196a9f5e8e766e9f36309c148c6aeae6584f7a2851cb
+SHA1: c147dd04462aa1dccb3eff6b4858939ba4588a45
+MD5sum: f12340a8b9513f55bb3647d8c264387f
 Description: Oblique version of the Terminus font
  This package contains oblique versions of the fonts in the package
  xfonts-terminus.  These fonts are automatically generated and at
