@@ -100,6 +100,26 @@ Description: Pure Python implementation of multicast DNS service discovery (Pyth
  .
  This is the Python3 version of the library.
 
+Package: sleepcycle-mqtt
+Version: 1.0
+Architecture: all
+Maintainer: Andre Klaerner <kandre@ak-online.be>
+Installed-Size: 7
+Depends: python3-zeroconf
+Priority: optional
+Section: python
+Filename: pool/main/s/sleepcycle-mqtt/sleepcycle-mqtt_1.0_all.deb
+Size: 1216
+SHA256: fbafe7f6a99e7965f1ece0ea9d0adc18f57a7aae24555c71c3d2ca4e9aab95e2
+SHA1: 3e1c3888e918a2e80ceca2c825fbec26bc0acaee
+MD5sum: 2d2cdf2ee08b820661e594a170cd7e10
+Description: Publish Sleepcycle status changes to MQTT
+ This script provides simple means to push your start or end of sleep events
+ to an MQTT topic.
+ .
+ I personally use this to turn off all the lights when I set my alarm and turn
+ them back on when I wake up.
+
 Package: trscripts
 Version: 1.18
 Architecture: all

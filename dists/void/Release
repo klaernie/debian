@@ -1,28 +1,28 @@
 Origin: ak-online.be private repository
 Label: ak-online
 Codename: void
-Date: Mon, 22 Oct 2018 18:14:46 UTC
+Date: Mon, 22 Oct 2018 19:28:26 UTC
 Architectures: i386 amd64
 Components: main
 Description: private ak-online.be repository
 MD5Sum:
- 8925a191d3d0f2b966ac340d089d33ad 8346 main/binary-i386/Packages
- 29415c8b583c6a716cb4b84d0f6adc79 3292 main/binary-i386/Packages.gz
+ 22978833a03b6a4364f73dab182c0834 9032 main/binary-i386/Packages
+ 818abcebf3147301f925ab9bb2405f82 3560 main/binary-i386/Packages.gz
  01bc0a7f0dfa9baec5062cf1fa6cb4b6 137 main/binary-i386/Release
- 8925a191d3d0f2b966ac340d089d33ad 8346 main/binary-amd64/Packages
- 29415c8b583c6a716cb4b84d0f6adc79 3292 main/binary-amd64/Packages.gz
+ 22978833a03b6a4364f73dab182c0834 9032 main/binary-amd64/Packages
+ 818abcebf3147301f925ab9bb2405f82 3560 main/binary-amd64/Packages.gz
  f272e5fce8750289b40c869d432d80c0 138 main/binary-amd64/Release
 SHA1:
- 01f11b606dc3250491dac9ade38e8e3708b47581 8346 main/binary-i386/Packages
- e27ea58a89d331bad5c6eb16a347d8492e2f0bbc 3292 main/binary-i386/Packages.gz
+ fa77025e1484e25a1934ae18465eb12bd30c4470 9032 main/binary-i386/Packages
+ 8edc11bf14ac2adcad4d6d34715827fb14d48cb5 3560 main/binary-i386/Packages.gz
  77363f397bdc21fc6fb67f132725d6d2b6aa3eca 137 main/binary-i386/Release
- 01f11b606dc3250491dac9ade38e8e3708b47581 8346 main/binary-amd64/Packages
- e27ea58a89d331bad5c6eb16a347d8492e2f0bbc 3292 main/binary-amd64/Packages.gz
+ fa77025e1484e25a1934ae18465eb12bd30c4470 9032 main/binary-amd64/Packages
+ 8edc11bf14ac2adcad4d6d34715827fb14d48cb5 3560 main/binary-amd64/Packages.gz
  b12ebfc58685df330fe141b2c77777c819088db9 138 main/binary-amd64/Release
 SHA256:
- 280e8197100d3e208d517af3516f1e9c3d82297f07b87ae945198e4e65dc00b0 8346 main/binary-i386/Packages
- cf402b36f3c777c1f7b406c651e3044d47b2ba9045edd9701340fee5215bcac6 3292 main/binary-i386/Packages.gz
+ 694735a559a840eaca0fab1d602d28f6dff99de4f7cbc971d3bc8ec25753e174 9032 main/binary-i386/Packages
+ b7bf2359945dc41a548efceb9adb8291fa2663e98fbca193de9c44081862ffda 3560 main/binary-i386/Packages.gz
  c59c917a86807aa731be80fc7282f0376e688546042508e72ee3f2a32832b001 137 main/binary-i386/Release
- 280e8197100d3e208d517af3516f1e9c3d82297f07b87ae945198e4e65dc00b0 8346 main/binary-amd64/Packages
- cf402b36f3c777c1f7b406c651e3044d47b2ba9045edd9701340fee5215bcac6 3292 main/binary-amd64/Packages.gz
+ 694735a559a840eaca0fab1d602d28f6dff99de4f7cbc971d3bc8ec25753e174 9032 main/binary-amd64/Packages
+ b7bf2359945dc41a548efceb9adb8291fa2663e98fbca193de9c44081862ffda 3560 main/binary-amd64/Packages.gz
  544a6237555f339cfa2a6ca9376a0992004e18bfd2ede2259e47a9f14361e6ee 138 main/binary-amd64/Release
