@@ -49,6 +49,57 @@ SHA1: 2ecc49b1640bbcf9b4c289c963a71c51f6144f97
 MD5sum: 9abefe971436d8988a22bd0fec54de25
 Description: depend on my essential tools
 
+Package: python-zeroconf
+Version: 0.21.3+git
+Architecture: all
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Installed-Size: 111
+Depends: python:any (<< 2.8), python:any (>= 2.7~)
+Homepage: https://github.com/jstasiak/python-zeroconf
+Priority: optional
+Section: python
+Filename: pool/main/p/python-zeroconf/python-zeroconf_0.21.3+git_all.deb
+Size: 27400
+SHA256: 02554324c90a07777a1bc7c8384fc1657f59bf412f812e97b8102391cd27766d
+SHA1: 263dbefbfafa90aae5fae6e12c9425e5362b98a3
+MD5sum: 5fb31a09e22540b53502b20e55a00abc
+Description: Pure Python implementation of multicast DNS service discovery
+ This is an implementation of the multicast DNS Service Discover Library
+ zeroconf in pure Python.
+ .
+ Compared to some other Zeroconf/Bonjour/Avahi Python packages:
+ .
+  - isn't tied to Bonjour or Avahi
+  - doesn't use D-Bus
+  - doesn't force you to use particular event loop or Twisted
+
+Package: python3-zeroconf
+Source: python-zeroconf
+Version: 0.21.3+git
+Architecture: all
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Installed-Size: 111
+Depends: python3:any
+Homepage: https://github.com/jstasiak/python-zeroconf
+Priority: optional
+Section: python
+Filename: pool/main/p/python-zeroconf/python3-zeroconf_0.21.3+git_all.deb
+Size: 27488
+SHA256: 5e85709f7c0b1e0094317fb58b73c09c2e59638ad6d4882a73990032ce150903
+SHA1: b79a45efeaba7ad4773ecd3c5ae3d27a6cbfcba8
+MD5sum: 266b7be6c6b9f343de6438e5ee780a4a
+Description: Pure Python implementation of multicast DNS service discovery (Python3)
+ This is an implementation of the multicast DNS Service Discover Library
+ zeroconf in pure Python.
+ .
+ Compared to some other Zeroconf/Bonjour/Avahi Python packages:
+ .
+  - isn't tied to Bonjour or Avahi
+  - doesn't use D-Bus
+  - doesn't force you to use particular event loop or Twisted
+ .
+ This is the Python3 version of the library.
+
 Package: trscripts
 Version: 1.18
 Architecture: all
