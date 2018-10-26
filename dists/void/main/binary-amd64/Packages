@@ -49,6 +49,42 @@ SHA1: 2ecc49b1640bbcf9b4c289c963a71c51f6144f97
 MD5sum: 9abefe971436d8988a22bd0fec54de25
 Description: depend on my essential tools
 
+Package: python-ifaddr
+Source: ifaddr
+Version: 0.1.4-1
+Architecture: all
+Maintainer: Andre Klaerner <kandre@ak-online.be>
+Installed-Size: 38
+Depends: python-ipaddress, python:any (<< 2.8), python:any (>= 2.7~)
+Homepage: https://github.com/pydron/ifaddr
+Priority: optional
+Section: python
+Filename: pool/main/i/ifaddr/python-ifaddr_0.1.4-1_all.deb
+Size: 7228
+SHA256: 9875a8895e39468e174267c7cafe1f1b388210efcba4f9b6f9b8acf40f6e5d93
+SHA1: 9436a5e528081b8b9b19416c6644f1d53a19eaca
+MD5sum: f67ec74570d91fe6cf2cc0625d47ee29
+Description: Enumerates all IP addresses on all network adapters of the s
+ .
+ .
+ ifaddr - Enumerate IP addresses on the local network adapters
+ =============================================================
+ .
+ `ifaddr` is a small Python library that allows you to find all the
+ IP addresses of the computer. It is tested on **Linux**, **OS X**, and
+ **Windows**.
+ .
+ This library is open source and released under the MIT License.
+ .
+ You can install it with `pip install ifaddr`. It doesn't need to
+ compile anything, so there shouldn't be any surprises. Even on Windows.
+ .
+ ----------------------
+ Let's get going!
+ ----------------------
+ .
+ .. code-block:: python
+
 Package: python-zeroconf
 Version: 0.21.3+git
 Architecture: all
@@ -72,6 +108,42 @@ Description: Pure Python implementation of multicast DNS service discovery
   - isn't tied to Bonjour or Avahi
   - doesn't use D-Bus
   - doesn't force you to use particular event loop or Twisted
+
+Package: python3-ifaddr
+Source: ifaddr
+Version: 0.1.4-1
+Architecture: all
+Maintainer: Andre Klaerner <kandre@ak-online.be>
+Installed-Size: 39
+Depends: python3:any
+Homepage: https://github.com/pydron/ifaddr
+Priority: optional
+Section: python
+Filename: pool/main/i/ifaddr/python3-ifaddr_0.1.4-1_all.deb
+Size: 7304
+SHA256: 9e2daf818f9821254411321c63a761a58be49e3aef3287919ffc3e9edbeb7a8c
+SHA1: c1416bbbf38362a3d82e6b7887525131c8e4100d
+MD5sum: 109ab980eb11d26118ab7230b4249123
+Description: Enumerates all IP addresses on all network adapters of the s
+ .
+ .
+ ifaddr - Enumerate IP addresses on the local network adapters
+ =============================================================
+ .
+ `ifaddr` is a small Python library that allows you to find all the
+ IP addresses of the computer. It is tested on **Linux**, **OS X**, and
+ **Windows**.
+ .
+ This library is open source and released under the MIT License.
+ .
+ You can install it with `pip install ifaddr`. It doesn't need to
+ compile anything, so there shouldn't be any surprises. Even on Windows.
+ .
+ ----------------------
+ Let's get going!
+ ----------------------
+ .
+ .. code-block:: python
 
 Package: python3-zeroconf
 Source: python-zeroconf
@@ -101,18 +173,18 @@ Description: Pure Python implementation of multicast DNS service discovery (Pyth
  This is the Python3 version of the library.
 
 Package: sleepcycle-mqtt
-Version: 1.0
+Version: 1.1
 Architecture: all
 Maintainer: Andre Klaerner <kandre@ak-online.be>
-Installed-Size: 7
-Depends: python3-zeroconf
+Installed-Size: 17
+Depends: python3, python3-paho-mqtt, python3-zeroconf
 Priority: optional
 Section: python
-Filename: pool/main/s/sleepcycle-mqtt/sleepcycle-mqtt_1.0_all.deb
-Size: 1216
-SHA256: fbafe7f6a99e7965f1ece0ea9d0adc18f57a7aae24555c71c3d2ca4e9aab95e2
-SHA1: 3e1c3888e918a2e80ceca2c825fbec26bc0acaee
-MD5sum: 2d2cdf2ee08b820661e594a170cd7e10
+Filename: pool/main/s/sleepcycle-mqtt/sleepcycle-mqtt_1.1_all.deb
+Size: 2620
+SHA256: 4aef9d760d822d0ab2fb34433d2b0565c8da3367f4f728d0c91e021fd6aca2d8
+SHA1: 02542461d4801e4a6e46d749f3c2556c8d1df811
+MD5sum: 7b22af94b01f59e655e51010fead4b18
 Description: Publish Sleepcycle status changes to MQTT
  This script provides simple means to push your start or end of sleep events
  to an MQTT topic.
