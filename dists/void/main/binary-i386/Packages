@@ -1,3 +1,38 @@
+Package: ak-online.be-apt
+Version: 1.0-1
+Architecture: all
+Maintainer: Andre Klärner <kandre@ak-online.be>
+Installed-Size: 21
+Depends: mailx, unattended-upgrades
+Priority: standard
+Section: admin
+Filename: pool/main/a/ak-online.be-apt/ak-online.be-apt_1.0-1_all.deb
+Size: 5120
+SHA256: 39d3c552a55bc3bea44223c0d8288cd9dd9c8f7381e128462c1773a9d53d4c1e
+SHA1: f7b106e4d4f5b9e5c62dbcf079430775be50fdc6
+MD5sum: 5769415442b7c05e40256358b0e750cd
+Description: Provide the most apt defaults for ak-online.be machines
+ This includes:
+ .
+ - the debian repository
+ - the trusted gpg keyring used for the sole maintainer
+ - unattended-upgrades config
+
+Package: ak-online.be-sssd
+Version: 1.0-8
+Architecture: all
+Maintainer: Andre Klärner <kandre@ak-online.be>
+Installed-Size: 12
+Depends: sssd-ldap, sssd-dbus
+Priority: optional
+Section: base
+Filename: pool/main/a/ak-online.be-sssd/ak-online.be-sssd_1.0-8_all.deb
+Size: 1920
+SHA256: 3909fa916ac8f5bfd2b08e90f05da5de740132a74b97301382121c8ba2f1b347
+SHA1: 8f4bd4a435247a09f459d7a52261301de220e9f9
+MD5sum: 32434b709ed294805c9beeb375d326d1
+Description: Provide the sssd-config for ak-online.be's LDAP setup
+
 Package: ca-cacert
 Version: 2017.0422-1
 Architecture: all
