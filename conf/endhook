@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [ "$REPREPRO_EXIT_CODE" -ne 0 ] ; then
+    exit "$REPREPRO_EXIT_CODE"
+fi
+
+cd "$REPREPRO_BASE_DIR"
+echo adding all files to the index...
+git add .
+echo committing changes...
+git commit -m "$REPREPRO_CAUSING_COMMAND $REPREPRO_CAUSING_FILE"
+echo pushing changes...
+git push
+
+exit 0
