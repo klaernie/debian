@@ -1,16 +1,16 @@
 Package: ak-online.be-apt
-Version: 1.0-1
+Version: 1.0-2
 Architecture: all
 Maintainer: Andre Klärner <kandre@ak-online.be>
 Installed-Size: 21
 Depends: mailx, unattended-upgrades
 Priority: standard
 Section: admin
-Filename: pool/main/a/ak-online.be-apt/ak-online.be-apt_1.0-1_all.deb
-Size: 5120
-SHA256: 39d3c552a55bc3bea44223c0d8288cd9dd9c8f7381e128462c1773a9d53d4c1e
-SHA1: f7b106e4d4f5b9e5c62dbcf079430775be50fdc6
-MD5sum: 5769415442b7c05e40256358b0e750cd
+Filename: pool/main/a/ak-online.be-apt/ak-online.be-apt_1.0-2_all.deb
+Size: 5176
+SHA256: 649fbf2b66103a14c73c0593b3f67579870af50059d703bb89d95a3f4a1f5253
+SHA1: 14b500813b011f8641d782f7eed27cc0a0df5c74
+MD5sum: d25122968927d3bcc63cf2b0fa6f45f6
 Description: Provide the most apt defaults for ak-online.be machines
  This includes:
  .
