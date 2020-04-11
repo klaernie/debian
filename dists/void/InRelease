@@ -4,44 +4,44 @@ Hash: SHA512
 Origin: ak-online.be private repository
 Label: ak-online
 Codename: void
-Date: Thu, 19 Sep 2019 19:48:22 UTC
+Date: Sat, 11 Apr 2020 19:05:41 UTC
 Architectures: i386 amd64
 Components: main
 Description: private ak-online.be repository
 MD5Sum:
- 26b0d66def88708762eff97ebdb48bca 12571 main/binary-i386/Packages
- a53de892555092f443afb5d7f0c81c9b 4584 main/binary-i386/Packages.gz
+ 3c4b9e5d1cd20c78f242eac39b739c94 12573 main/binary-i386/Packages
+ 5d9414942fb0577b4bc2e24cdf6b591b 4586 main/binary-i386/Packages.gz
  01bc0a7f0dfa9baec5062cf1fa6cb4b6 137 main/binary-i386/Release
- 26b0d66def88708762eff97ebdb48bca 12571 main/binary-amd64/Packages
- a53de892555092f443afb5d7f0c81c9b 4584 main/binary-amd64/Packages.gz
+ 3c4b9e5d1cd20c78f242eac39b739c94 12573 main/binary-amd64/Packages
+ 5d9414942fb0577b4bc2e24cdf6b591b 4586 main/binary-amd64/Packages.gz
  f272e5fce8750289b40c869d432d80c0 138 main/binary-amd64/Release
 SHA1:
- bf5997f5cba2794fe87e52790ffa4f04c43b4835 12571 main/binary-i386/Packages
- eb2fa24ea6974a16c13afde808b614f45f6ab886 4584 main/binary-i386/Packages.gz
+ dbd334e2464a35b489b2dda5085d0664a3887602 12573 main/binary-i386/Packages
+ a7d98abbcd3ee1aa42298cfe4c34b30016bbee6b 4586 main/binary-i386/Packages.gz
  77363f397bdc21fc6fb67f132725d6d2b6aa3eca 137 main/binary-i386/Release
- bf5997f5cba2794fe87e52790ffa4f04c43b4835 12571 main/binary-amd64/Packages
- eb2fa24ea6974a16c13afde808b614f45f6ab886 4584 main/binary-amd64/Packages.gz
+ dbd334e2464a35b489b2dda5085d0664a3887602 12573 main/binary-amd64/Packages
+ a7d98abbcd3ee1aa42298cfe4c34b30016bbee6b 4586 main/binary-amd64/Packages.gz
  b12ebfc58685df330fe141b2c77777c819088db9 138 main/binary-amd64/Release
 SHA256:
- 3c342f8cf9f062e8baaf8688e49c27c739a20d57512e22d7cf7ae2a35fe7c6fa 12571 main/binary-i386/Packages
- 0bd3b422dd509977b43fdee279c7f88f80da70b914845503c31717adf4189f14 4584 main/binary-i386/Packages.gz
+ 51aaa7cf7343215a5fef564b52b145b53c8b2a66dc2956d4674b5042b39c17b4 12573 main/binary-i386/Packages
+ 2d782e18e5e11d216a331dd9dac6bcab275faf90903973c785d8dc29598970ba 4586 main/binary-i386/Packages.gz
  c59c917a86807aa731be80fc7282f0376e688546042508e72ee3f2a32832b001 137 main/binary-i386/Release
- 3c342f8cf9f062e8baaf8688e49c27c739a20d57512e22d7cf7ae2a35fe7c6fa 12571 main/binary-amd64/Packages
- 0bd3b422dd509977b43fdee279c7f88f80da70b914845503c31717adf4189f14 4584 main/binary-amd64/Packages.gz
+ 51aaa7cf7343215a5fef564b52b145b53c8b2a66dc2956d4674b5042b39c17b4 12573 main/binary-amd64/Packages
+ 2d782e18e5e11d216a331dd9dac6bcab275faf90903973c785d8dc29598970ba 4586 main/binary-amd64/Packages.gz
  544a6237555f339cfa2a6ca9376a0992004e18bfd2ede2259e47a9f14361e6ee 138 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEJllmNfBZ8nCrh7AMZSiRLGaHo+IFAl2D24kACgkQZSiRLGaH
-o+JiZxAArGLhNbh8LQFhOKNyTvpClZINubFJDFknusayZLoxpJCjqqpXYpc195Zo
-442njTi59iY8vSCTomkLdyZZyXzhTcatL/MNuItJZJ8y5NZxQA5RvzN+vH/rGwQL
-wO1Cvj+3xOqlwQmewcKYjX3Zb3WCHM2hj/QNS8xWb8xcAGso6bs7iMsrJrjYogRq
-VU5rmZdPUGGHLr4vC2IWs5mqxMX682fJLUnZZMiHcp6BQ9JL5eRx/jeOEmuEkk69
-NcAKf68F2Gw95x0ISaipFXXUm1SXoOPRK4ogGl+6D7l5kV0ii6VIM8TvrvxLy+1X
-F+yRKQ1i8HF3uVDDH7tJ+b+zgsdKshT6A9ikIlYsOCsHIEn6sqCjuHZ6CVrIMVki
-9rWDwxCRq69w4FajkJEFnuHelOohIuyFGf3JkP5TEg1oeMdGbgYww11Z5mXMk3FL
-hNL/WT0AM7xMTpNWL5Qsq+u9DrTTr/oPf+Bd69Lqb7CuQVpwjqbIER3gzBJk9rXh
-RaTfiV3p77bYPQoT+zFFcNn6AH/eAhMDBuS9OV4tRvsGdFv1sMk9og4NFxxiEWG6
-loyex1/PGd+4kn30prSEwpe3gSC0Bo84OefbQ74285mBycFjvKvbeRI7MItD0mWI
-HNojmsLq8KTlC8OXkCrdX+T1VCY5CxaL2DSz/xJvEy7Bh38A0jE=
-=igkX
+iQIzBAEBCgAdFiEEJllmNfBZ8nCrh7AMZSiRLGaHo+IFAl6SFQkACgkQZSiRLGaH
+o+LlMg/6Au9dNHfzsoFPtSPExc0p1yEyW756/dRrHC8u/chiraeUcXlSYJ/jK2W1
+NDFcRpJUhr7sZDYmc9qhb+16yIWZlBQp2qMvJrqqiN2xQEGZmr6CmjvxWJcdJsDT
+CtNKDaMJL+2hiojofZo/4YyVzlfEpSjYt2p0k15jIwtXJmzHGrxdW62gm5RFQ1bU
+Vl5OB4gRkWRly41sUV85BrcEXBnJn/jW8efg0ETPd3h5MNiT5hJV6vg7jqaWfgHm
+zQxY57IUfafEQ2Qmy0A20D3O4rOn1/PZ8DCP3XsHH57chDk+iYRphUUFNtu0d35q
+KKY/eLHlB/9d96yb4gsB25cSLVWKGDMLJccYY0KcE+Oc706UwaPn6Y77/5iKOmyg
+zqL0p2Rapv/ve53PTReRGFBSV7CW46NhjBrke3U4+QhimRHpgtIDP5cWs6HjC413
+Mr4hoADN4xuHcAP3oD1pb5yDv0uFPkC0QYDGYKRFKjvXh0KCwTjxHtIk7TmF0k22
+ny1i7sKQzx+sWcyqnNDIi68HDworNsKGGAzxpuk+GrFx893oagpbo9jhJYBL/ryw
+RvwpK75/mm4GcwFr3D9TQ7wvnfXnVPyYysLpKWTRxbOCEfKIwzP9wXkp9jSzsWT+
+9rH8o1bMnHQRZ2T5D54xueNotfZ50/yQTQj32/y2dDXL6cGizLg=
+=SRgx
 -----END PGP SIGNATURE-----
