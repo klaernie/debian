@@ -4,44 +4,44 @@ Hash: SHA512
 Origin: ak-online.be private repository
 Label: ak-online
 Codename: void
-Date: Sat, 11 Apr 2020 19:05:41 UTC
+Date: Mon, 30 Nov 2020 20:51:54 UTC
 Architectures: i386 amd64
 Components: main
 Description: private ak-online.be repository
 MD5Sum:
- 3c4b9e5d1cd20c78f242eac39b739c94 12573 main/binary-i386/Packages
- 5d9414942fb0577b4bc2e24cdf6b591b 4586 main/binary-i386/Packages.gz
+ ff2f7b1935c4a903daeb3f0bfd07b13e 12573 main/binary-i386/Packages
+ 9ae9701962cda5f35055999489cbef80 4591 main/binary-i386/Packages.gz
  01bc0a7f0dfa9baec5062cf1fa6cb4b6 137 main/binary-i386/Release
- 3c4b9e5d1cd20c78f242eac39b739c94 12573 main/binary-amd64/Packages
- 5d9414942fb0577b4bc2e24cdf6b591b 4586 main/binary-amd64/Packages.gz
+ ff2f7b1935c4a903daeb3f0bfd07b13e 12573 main/binary-amd64/Packages
+ 9ae9701962cda5f35055999489cbef80 4591 main/binary-amd64/Packages.gz
  f272e5fce8750289b40c869d432d80c0 138 main/binary-amd64/Release
 SHA1:
- dbd334e2464a35b489b2dda5085d0664a3887602 12573 main/binary-i386/Packages
- a7d98abbcd3ee1aa42298cfe4c34b30016bbee6b 4586 main/binary-i386/Packages.gz
+ d59ee8f61384ec860d720b0af9b4aeb8aa3266d4 12573 main/binary-i386/Packages
+ 89bb01c76fc4c1dec6497a927dca17f4da6d0722 4591 main/binary-i386/Packages.gz
  77363f397bdc21fc6fb67f132725d6d2b6aa3eca 137 main/binary-i386/Release
- dbd334e2464a35b489b2dda5085d0664a3887602 12573 main/binary-amd64/Packages
- a7d98abbcd3ee1aa42298cfe4c34b30016bbee6b 4586 main/binary-amd64/Packages.gz
+ d59ee8f61384ec860d720b0af9b4aeb8aa3266d4 12573 main/binary-amd64/Packages
+ 89bb01c76fc4c1dec6497a927dca17f4da6d0722 4591 main/binary-amd64/Packages.gz
  b12ebfc58685df330fe141b2c77777c819088db9 138 main/binary-amd64/Release
 SHA256:
- 51aaa7cf7343215a5fef564b52b145b53c8b2a66dc2956d4674b5042b39c17b4 12573 main/binary-i386/Packages
- 2d782e18e5e11d216a331dd9dac6bcab275faf90903973c785d8dc29598970ba 4586 main/binary-i386/Packages.gz
+ a9769551859b81c312119ab8a9fb9a460b825aeef7922db7c2d1a33d4d26b444 12573 main/binary-i386/Packages
+ 2c1b10ed7c7a673c3a2aa3301a251b01622ec7d754eee7a50f33202995e0f7d2 4591 main/binary-i386/Packages.gz
  c59c917a86807aa731be80fc7282f0376e688546042508e72ee3f2a32832b001 137 main/binary-i386/Release
- 51aaa7cf7343215a5fef564b52b145b53c8b2a66dc2956d4674b5042b39c17b4 12573 main/binary-amd64/Packages
- 2d782e18e5e11d216a331dd9dac6bcab275faf90903973c785d8dc29598970ba 4586 main/binary-amd64/Packages.gz
+ a9769551859b81c312119ab8a9fb9a460b825aeef7922db7c2d1a33d4d26b444 12573 main/binary-amd64/Packages
+ 2c1b10ed7c7a673c3a2aa3301a251b01622ec7d754eee7a50f33202995e0f7d2 4591 main/binary-amd64/Packages.gz
  544a6237555f339cfa2a6ca9376a0992004e18bfd2ede2259e47a9f14361e6ee 138 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEJllmNfBZ8nCrh7AMZSiRLGaHo+IFAl6SFQkACgkQZSiRLGaH
-o+LlMg/6Au9dNHfzsoFPtSPExc0p1yEyW756/dRrHC8u/chiraeUcXlSYJ/jK2W1
-NDFcRpJUhr7sZDYmc9qhb+16yIWZlBQp2qMvJrqqiN2xQEGZmr6CmjvxWJcdJsDT
-CtNKDaMJL+2hiojofZo/4YyVzlfEpSjYt2p0k15jIwtXJmzHGrxdW62gm5RFQ1bU
-Vl5OB4gRkWRly41sUV85BrcEXBnJn/jW8efg0ETPd3h5MNiT5hJV6vg7jqaWfgHm
-zQxY57IUfafEQ2Qmy0A20D3O4rOn1/PZ8DCP3XsHH57chDk+iYRphUUFNtu0d35q
-KKY/eLHlB/9d96yb4gsB25cSLVWKGDMLJccYY0KcE+Oc706UwaPn6Y77/5iKOmyg
-zqL0p2Rapv/ve53PTReRGFBSV7CW46NhjBrke3U4+QhimRHpgtIDP5cWs6HjC413
-Mr4hoADN4xuHcAP3oD1pb5yDv0uFPkC0QYDGYKRFKjvXh0KCwTjxHtIk7TmF0k22
-ny1i7sKQzx+sWcyqnNDIi68HDworNsKGGAzxpuk+GrFx893oagpbo9jhJYBL/ryw
-RvwpK75/mm4GcwFr3D9TQ7wvnfXnVPyYysLpKWTRxbOCEfKIwzP9wXkp9jSzsWT+
-9rH8o1bMnHQRZ2T5D54xueNotfZ50/yQTQj32/y2dDXL6cGizLg=
-=SRgx
+iQIzBAEBCgAdFiEEJllmNfBZ8nCrh7AMZSiRLGaHo+IFAl/FW2wACgkQZSiRLGaH
+o+KWVA/+OZgv0jGW4bKMdvm0dEuZrusJw/nTA6RjA8y+MMLI3hKewWW9qz/Ci/pW
+jsliaCQCGCq8QpOzRMZDIDNDaTjPj2C4ArUlwBODRCBN03CA22irPohxzqLRi9yK
+Icu5VGzSjdETOVXSoR2A0Z6J3sKw/5xycbsVwSb6U7nn+GiEb8Pjy214IkVn3bEv
+m0S4VQaOA6PRGP7YQo+FUmnGFRHWN2YmPfXBBrfNrAwnWAGdcOvv4gc+KAkOGb4B
+VdQhX9FKMiPHs2vK3qgBkAwS58XAbusjv5/9XtZ+BokOXoI/rq3ecWgsUZX9K46g
+qP9LylbGggJlBKR5ZaP4bXLDzX6a+CnA2K5whGaMIiZNttVvfphJuaH5/v7/0KoB
+6fEv6bQ/denPp+p4T4WlxbVhKWqSrhvkWPghos40xTUhqyIkzhL4IuC+s2WH4XMs
+y9I1xw/YP/j1PdqCiG/4ScuNoEefHOatLP97FGyDUzo/OjVovgPAwU5Z3m6edlX4
+qz2nKrsoGN5RMhRCVQHV1hAT/6VkDv7Yvtttf+mk+nzp/oZhEDU+6yksurCK715o
+Y/q8vMNSbQynY8CvdHKWtFGJv9/UTx/R6L+YHhPNLPniZKOR0CYA5L+Udt/iqPz/
+pmSgYyGlO2txWMuRUAEcmYO63DYxbrUYATwgeswYz1XTaN4e4nU=
+=chnG
 -----END PGP SIGNATURE-----
