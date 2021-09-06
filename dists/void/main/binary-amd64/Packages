@@ -68,6 +68,340 @@ Description: CAcert.org root certificates
  .
  Please note that CAcert may not yet comply with RFC 3647 or similar standards.
 
+Package: collectd
+Version: 5.12.0-7
+Architecture: amd64
+Maintainer: Collectd Packaging Team <team+collectd@tracker.debian.org>
+Installed-Size: 205
+Depends: collectd-core (>= 5.12.0-7), collectd-core (<< 5.12.0-7.1~), libc6 (>= 2.14), librrd8 (>= 1.3.0)
+Recommends: intel-cmt-cat (>= 4.2), libatasmart4 (>= 0.13), libbson-1.0-0 (>= 1.19.0), libc6 (>= 2.29), libcurl3-gnutls (>= 7.18.2-5), libdbi1 (>= 0.9.0), libesmtp6, libgcc-s1 (>= 3.0), libgcrypt20 (>= 1.9.0), libglib2.0-0 (>= 2.12.0), libgps28 (>= 3.3), libgrpc++1 (>= 1.30.2), libgrpc10 (>= 1.30.2), libhiredis0.14 (>= 0.14.0), libi2c0 (>= 4.0), libip4tc2 (>= 1.8.3), libip6tc2 (>= 1.8.3), libjansson4 (>= 2.0.1), libldap-2.4-2 (>= 2.4.7), liblua5.3-0, libmariadb3 (>= 3.0.0), libmemcached11, libmicrohttpd12 (>= 0.9.50), libmnl0 (>= 1.0.3-4~), libmodbus5 (>= 3.0.2), libmongoc-1.0-0 (>= 1.19.0), libmosquitto1 (>= 1.2), libnotify4 (>= 0.7.0), libopenipmi0 (>= 2.0.29), liboping0 (>= 0.3.3), libowcapi-3.2-4 (>= 3.2p4+dfsg1), libpcap0.8 (>= 1.0.0), libperl5.32 (>= 5.32.0~rc1), libpq5, libprotobuf-c1 (>= 1.0.1), libprotobuf23 (>= 3.12.4), libpython3.9 (>= 3.9.1), libqpid-proton11, librabbitmq4 (>= 0.8.0), librdkafka1 (>= 0.9.1), libriemann-client0 (>= 1.10.0), librrd8 (>= 1.4~rc2), librte-eal21 (>= 20.11), librte-ethdev21 (>= 20.11), libsensors5 (>= 1:3.5.0), libsnmp40 (>= 5.9+dfsg), libssl1.1 (>= 1.1.0), libstdc++6 (>= 5.2), libudev1 (>= 183), libvarnishapi2 (>= 6.1.0), libvirt0 (>= 1.2.11~rc1), libxenmisc4.14, libxml2 (>= 2.7.4), libyajl2 (>= 2.0.4), default-jre-headless
+Homepage: https://collectd.org/
+Priority: optional
+Section: utils
+Filename: pool/main/c/collectd/collectd_5.12.0-7_amd64.deb
+Size: 137936
+SHA256: aa9ea52fdf6ce566926a68792d3bb95f463ba2edefb81bf36307b113f546e95d
+SHA1: 01d3fe9d6675bdc3ee5cf44b791a0948580d305f
+MD5sum: c0445b2ff385f07412b835c798e5c719
+Description: statistics collection and monitoring daemon
+ collectd is a small daemon which collects system information periodically and
+ provides mechanisms to monitor and store the values in a variety of ways.
+ Since the daemon doesn't need to startup every time it wants to update the
+ values it's very fast and easy on the system. Also, the statistics are very
+ fine grained since the files are updated every 10 seconds by default.
+ .
+ The collected information can be used to find current performance bottlenecks
+ (performance analysis) and predict future system load (capacity planning).
+ .
+ This package provides a full installation of the daemon, including the
+ configuration. For the core system, see the "collectd-core" package, which
+ allows sites to, e.g., provide customizations (like a custom default
+ configuration) on top of it without having to modify the "collectd" package.
+
+Package: collectd-core
+Source: collectd
+Version: 5.12.0-7
+Architecture: amd64
+Maintainer: Collectd Packaging Team <team+collectd@tracker.debian.org>
+Installed-Size: 5692
+Depends: libc6 (>= 2.17), libcap2 (>= 1:2.10), debconf (>= 0.5) | debconf-2.0, lsb-base
+Recommends: perl, rrdtool
+Suggests: collectd-dev, librrds-perl, liburi-perl, libhtml-parser-perl, libregexp-common-perl, libconfig-general-perl, httpd-cgi, apache2, apcupsd, bind9, ceph, chrony, default-mysql-server, gpsd, hddtemp, iptables, ipvsadm, lm-sensors, mbmon, memcached, nginx, notification-daemon, openvpn, olsrd, pdns-server, postgresql, redis-server, slapd, time-daemon, varnish, zookeeper, intel-cmt-cat (>= 4.2), libatasmart4 (>= 0.13), libbson-1.0-0 (>= 1.19.0), libc6 (>= 2.29), libcurl3-gnutls (>= 7.18.2-5), libdbi1 (>= 0.9.0), libesmtp6, libgcc-s1 (>= 3.0), libgcrypt20 (>= 1.9.0), libglib2.0-0 (>= 2.12.0), libgps28 (>= 3.3), libgrpc++1 (>= 1.30.2), libgrpc10 (>= 1.30.2), libhiredis0.14 (>= 0.14.0), libi2c0 (>= 4.0), libip4tc2 (>= 1.8.3), libip6tc2 (>= 1.8.3), libjansson4 (>= 2.0.1), libldap-2.4-2 (>= 2.4.7), liblua5.3-0, libmariadb3 (>= 3.0.0), libmemcached11, libmicrohttpd12 (>= 0.9.50), libmnl0 (>= 1.0.3-4~), libmodbus5 (>= 3.0.2), libmongoc-1.0-0 (>= 1.19.0), libmosquitto1 (>= 1.2), libnotify4 (>= 0.7.0), libopenipmi0 (>= 2.0.29), liboping0 (>= 0.3.3), libowcapi-3.2-4 (>= 3.2p4+dfsg1), libpcap0.8 (>= 1.0.0), libperl5.32 (>= 5.32.0~rc1), libpq5, libprotobuf-c1 (>= 1.0.1), libprotobuf23 (>= 3.12.4), libpython3.9 (>= 3.9.1), libqpid-proton11, librabbitmq4 (>= 0.8.0), librdkafka1 (>= 0.9.1), libriemann-client0 (>= 1.10.0), librrd8 (>= 1.4~rc2), librte-eal21 (>= 20.11), librte-ethdev21 (>= 20.11), libsensors5 (>= 1:3.5.0), libsnmp40 (>= 5.9+dfsg), libssl1.1 (>= 1.1.0), libstdc++6 (>= 5.2), libudev1 (>= 183), libvarnishapi2 (>= 6.1.0), libvirt0 (>= 1.2.11~rc1), libxenmisc4.14, libxml2 (>= 2.7.4), libyajl2 (>= 2.0.4), default-jre-headless
+Replaces: collectd (<< 4.8.2-1~)
+Homepage: https://collectd.org/
+Priority: optional
+Section: utils
+Filename: pool/main/c/collectd/collectd-core_5.12.0-7_amd64.deb
+Size: 1307872
+SHA256: 7e804bfd478f3b0e374f4931b69289e9c0d145a7ec7af24e72b9b2053ef1d20b
+SHA1: f59a1f9098863a7e9aa09df5fdee57f13d69b74f
+MD5sum: a298c06766c9a13fc5313ca9da73c310
+Description: statistics collection and monitoring daemon (core system)
+ collectd is a small daemon which collects system information periodically and
+ provides mechanisms to monitor and store the values in a variety of ways.
+ Since the daemon doesn't need to startup every time it wants to update the
+ values it's very fast and easy on the system. Also, the statistics are very
+ fine grained since the files are updated every 10 seconds by default.
+ .
+ The collected information can be used to find current performance bottlenecks
+ (performance analysis) and predict future system load (capacity planning).
+ .
+ This package contains the main program file and the plugins listed below (some
+ of those plugins require additional libraries - for more details see
+ /usr/share/doc/collectd-core/README.Debian.plugins) but no configuration. For
+ a full installation (including configuration), see the "collectd" package.
+ This package allows sites to, e.g., provide customizations (like a custom
+ default configuration) on top of it without having to modify the "collectd"
+ package.
+ .
+   * AMQP output plugin: amqp
+   * AMQP 1.0 output plugin: amqp1
+   * Apache and lighttpd statistics provided by mod_status: apache
+   * APC UPS's charge, load, input/output/battery voltage, etc.: apcups
+   * Ascent server statistics: ascent
+   * Bosch and Freescale barometers: barometer
+   * battery status: battery
+   * bind9 name-server and zone statistics: bind
+   * Ceph distributed storage system statitics: ceph
+   * CGroups resource usage: cgroups
+   * Chrony daemon statistics: Local clock drift, offset to peers: chrony
+   * connection tracking table size: conntrack
+   * number of context switches done by the operating system: contextswitch
+   * CPU utilization: cpu
+   * CPU frequency: cpufreq
+   * CPU sleep: Time spent in suspend : cpusleep
+   * output to comma separated values (CSV) files: csv
+   * parse statistics from websites: curl
+   * parse JSON files: curl_json
+   * parse XML data: curl_xml
+   * query data from a relational database: dbi
+   * disk space usage: df
+   * disk and partition throughput: disk
+   * DNS traffic information: dns
+   * DPDK link status and keep alive events: dpdkevents
+   * DPDK interface statistics: dpdkstat
+   * Distributed Replicated Block Device status: drbd
+   * E-Mail statistics (count, traffic, spam scores and checks): email
+   * amount of available entropy: entropy
+   * execution of external programs: exec
+   * count the number of open file handles: fhcount
+   * count the number of files in directories: filecount
+   * Linux file-system based caching framework statistics: fscache
+   * Monitor gps related data through gpsd: gps
+   * Send or receive values over the network using the gRPC framework: grpc
+   * query data from Java processes using JMX: GenericJMX (Java based plugin)
+   * harddisk temperature: hddtemp
+   * Report the number of used and free hugepages: hugepages
+   * Intel Resource Director Technology statistics: intel_rdt
+   * network traffic: interface
+   * IPC statistics: ipc
+   * IPMI sensors information: ipmi
+   * iptables statistics: iptables
+   * IPVS connection statistics: ipvs
+   * IRQ counters: irq
+   * embedded Java Virtual Machine: java
+   * system load averages: load
+   * logging to files, STDOUT and STDERR: logfile
+   * logging in logstash's JSON event format: log_logstash
+   * embedded Lua interpreter: lua
+   * Machine Check Exceptions notifications: mcelog
+   * Atheros wireless LAN chipset statistics: madwifi
+   * motherboard monitor: mbmon
+   * query and parse data from a memcache daemon: memcachec
+   * statistics of the memcached distributed caching system: memcached
+   * memory usage: memory
+   * read values from Modbus/TCP enabled devices: modbus
+   * statistics from mon.itor.us: Monitorus (Perl based plugin)
+   * Publishes and subscribes to MQTT topics: mqtt
+   * multimeter statistics: multimeter
+   * MySQL statistics provided by MySQL's "show status" command: mysql
+   * detailed Linux network interface and routing statistics: netlink
+   * IO via the network: network
+   * NFS utilization: nfs
+   * Nginx (a HTTP and E-Mail server/proxy) statistics: nginx
+   * send desktop notifications to a notification daemon: notify_desktop
+   * send notification E-mails: notify_email
+   * send notifications to nagios: notify_nagios
+   * NTP daemon's local clock drift, offset to peers, etc.: ntpd
+   * Optimized Link State Routing daemon statistics: olsrd
+   * OpenLDAP's cn=Monitor statistics: openldap
+   * OpenVPN traffic and compression statistics: openvpn
+   * OpenVZ statistics: OpenVZ (Perl based plugin)
+   * Open vSwitch link state events: ovs_events
+   * Open vSwitch bridge / interface statistics: ovs_stats
+   * embedded Perl interpreter: perl
+   * timing values from Pinba: pinba
+   * network latency statistics: ping
+   * PostgreSQL database statistics: postgresql
+   * PowerDNS name server statistics: powerdns
+   * number of processes: processes
+   * information about network protocols: protocols
+   * embedded Python interpreter: python
+   * Redis server statistics: redis
+   * write data via the RRD accelerator daemon: rrdcached
+   * output to RRD files: rrdtool
+   * lm_sensors information (e.g. CPU temperature, fan speeds): sensors
+   * serial port traffic: serial
+   * values from SNMP enabled network devices: snmp
+   * receive and handle queries from SNMP master agent: snmp_agent
+   * aggregate values received with the StatsD protocol: statsd
+   * SMART statistics: smart
+   * swap usage: swap
+   * Linux synproxy statistics: synproxy
+   * logging to syslog: syslog
+   * parse table-like structured files: table
+   * incremental parsing of logfiles: tail
+   * incremental parsing of CSV files: tail_csv
+   * number of TCP connections to specific ports: tcpconns
+   * TeamSpeak2 server statistics: teamspeak2
+   * power consumption measurements from "The Energy Detective" (TED): ted
+   * Linux ACPI thermal zone information: thermal
+   * check thresholds and for missing values: threshold
+   * statistics from Intel turbo-capable processors: turbostat
+   * external runtime interface: unixsock
+   * system uptime: uptime
+   * number of users logged into the system: users
+   * set the hostname to an unique identifier: uuid
+   * Varnish HTTP accelerator daemon statistics: varnish
+   * CPU, disk, network statistics of guest systems: virt
+   * detailed virtual memory statistics: vmem
+   * system resources used by Linux-VServers: vserver
+   * wireless network stats: wireless
+   * send collected values to a graphite server: write_graphite
+   * send collected values to a web-server: write_http
+   * send collected values to an Apache Kafka message broker: write_kafka
+   * send collected values to the logging subsystem: write_log
+   * send collected values to MongoDB, a NoSQL database: write_mongodb
+   * publish collected values as a Prometheus exporter: write_prometheus
+   * send collected values to a Redis server: write_redis
+   * send collected values to a Riemann server: write_riemann
+   * send collected values to a Sensu client: write_sensu
+   * send collected values to Google Stackdriver: write_stackdriver
+   * send collected values to an OpenTSDB server: write_tsdb
+   * XEN Hypervisor CPU stats: xencpu
+   * ZFS's Adaptive Replacement Cache statistics: zfs_arc
+   * data from Zookeeper's MNTR command: zookeeper
+
+Package: collectd-core-dbgsym
+Source: collectd
+Version: 5.12.0-7
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Collectd Packaging Team <team+collectd@tracker.debian.org>
+Installed-Size: 5750
+Depends: collectd-core (= 5.12.0-7)
+Breaks: collectd-dbg (<< 5.9.2.g-2~)
+Replaces: collectd-dbg (<< 5.9.2.g-2~)
+Priority: optional
+Section: debug
+Filename: pool/main/c/collectd/collectd-core-dbgsym_5.12.0-7_amd64.deb
+Size: 4684472
+SHA256: cbe0f12dadf990286c9047e1200cbd045ddeabf322a9e35cbda7d2a1e97a17fd
+SHA1: 4dff582f7778fed9d15ef7ada5bb59e8481e0f31
+MD5sum: 106c0f491f6227eda15d3ddcebc01d95
+Description: debug symbols for collectd-core
+Build-Ids: 0218b7145add787e45905125fe12f990abf103bd 058979f3f08a3796ff9d48e18a9760fd4c49d2b3 075891e45daa06dfec6451a58ce02cc2cd2ad109 0a7d71c625c7a7e238f3ac5bead8223808698970 0ac2c597caed34c9d951e9cf0b673e34d4ab910d 0cdabf553636a8822266bda05e890412dfb4f394 0d95a5f24b7d750addfc984c9c5fa97e9e2b6027 0e0b6a8f69c5d99cfc41ff54eb0db3a44ca8826c 0f13397cf986eb607aa5d3c2a1d18d2f3481b0f3 10718f517fb836e8d1604cbd5b3e186253e858d6 10a0b16e967c8fb6ac1cd05ff2e6eeb23f0b8530 15189bfc155064d8f379a57ac172f83c2b586224 17f22c829538ee7d85c5e871a806cbaf64489e66 1a8893906b68ff7c09a11c72090d260921f9c305 1ab6f59dc3ce0b60245bcb27857444d58089ebbb 1f0449d30482299f362e7049160d65f3a3d50046 1f1454b0b7a89c51631638cf3229a03a253ba57e 1f18141c7b56b232ed2267f618760bf7a8c53178 209ed0fe1aa62ace48680c80157b699e7c9894b2 234df0130e4a317de478f88e5f1a96c9e0490838 24351f8fb64033dcc4c5023b67a61554f4be189f 24b8cc9d4e7cbb6b54fc65889515575f6404d263 256e836f5cb70ad3e5ea15227b64efe97aac3a9b 27f9bb4222c24ab021ffd1559f4c0c6d567a42e5 28307830eabd4b63cc24f88de2d46c39cbad985e 28e9f9c628ed1590db12912add60d2f73d784abd 2ad5b98ceb3bbc72a0b30403581ca7c0e5d726a8 2c03e6f04f33ddf16999390bdffcbd6558ab484b 2c43a03926eb4a28488490ef1c1eb63f0cc1c492 2f835a8cf393143278933c7cc27847bb820d579e 30825170af608ea02c8a1b126f238492878fddb6 30c7f315ce5641e834b5f454a91dc981db6aca39 337b432b14d599917c9c3eb4d46698e53190c935 363061e8d9002a065fd1210ce8b8a8f3de60b46d 399fb09b17d12eb6efa48abc2b710e7f129da4a9 3b9ff956b99f6026b7f9bcb8bb5cd18125d5cb33 3de343ad0913022921a9d136aaefbb17b6bc5453 41dfe1b064eca5e16118ca191f898bb92126fb22 4396a9eaefea90d254fa45199cfc121b41047360 440aa123950bd7f2e9d1ca9e0477ac2eea6d9c39 45ef70cb5b5e7bdb9b90fec6752f8f8d48bc57e8 4ac83abd584280195bacee0f3d34cd509dd950fc 4b27c06781d4e9a84bd89b56dbfe2df49c75ef3d 4d45d4a74aa97e877337f160a69ba3b3424e9f80 4f68b193610aeac991ccf296446e40b434ef94fe 4f7f4a78041dc05273b504c754da6761fbbcb1c1 530e8ba0abda1529e694640e70200cd96a1bce1b 533075a515cfbc4afb0b6ccdd08beb065a7bfd79 56c6a6c230ff55d7e91dffb56b1c21216aff0628 58688fa34a1bf350d38790367e3ed5bd8ca6bdb3 5eec9391bbff17b633d7cd4f460b74b6f863e064 610f34e59f70307856078b7ec2f0e4aa42d6e36c 63ef8b440b75f7b2912fa541563d4615fce18d27 64f14c693a838d247e0bcabb45ced7c4971c6da9 6710b960f4fcf1f077d7425b58234e50732e5e06 679c653b8b46bdf3266eb2416aaf640b580c8966 679f266cd38bd8598627d280be988c14cd6f481a 6cb8b3307aff801e1d6556e2c99b3a2aea01b2c7 6db816f06c2d0cddcb5213f4f4f348f7ffe02549 7548220b82147632553effb92223678b1ce8814a 763853988f6ff0d354d2e660dc151232a5847ecf 76a63adcec6f96e967904e1cfc686bccd64caeea 772826c1f9f70b963cce2e590f2241951503ca21 7989fa5fe7603b7d09bc0be8811b61f4fca590d9 79fc7bb26f6e43ef0035095c442b208bd9303d0f 7a71e712397311205a8680fdd9513b6a383cc5dd 7e01bcde5a53cfc8c88a53fe11a32bc30a2aa9c7 7e0b89a4e4d11095caab34109803d9491f18c225 7e28cd1f31812414fb9280321fbcae3d84fab757 8093d03e202a419226ee472398c6db928717389e 81157ca70696364fefcb029f8c763ef44e2217cb 862cded38194beecd4382ace3f439bcc0e9e07ad 86fa905d1387e1b7722d10d9201e4c270ee73ad8 8ce1daa1fee38ccbd9c250046168505124cc2ec4 8f3285044bf6bf88b9a1d2cb482adce13ed35f45 905433cb4b94a5752d0f07cab4b09bf168a3d66b 90cb61e2d689879540c43eadc7f0f75d3227d320 9230cb22f6869dd6cf4cbc9b4334d1909653ba94 92d4156fc0d29ba24dbdf76866e75f0c42b62b6c 94b30929e6552d2acb744f80f5430e5383101d22 94c08405dc14d7e605a5544fcc1a83c58971f37c 95e76acf7fc23077b9132ddc1208f1c35511196e 965f005f602510b466130809913d802eb16f29a7 96b8fae223eeb4b1674d19e38fc71464d1e1af0f 97cfbd3ce357e43520be7ac28e92d5e94b089a2a 9a39f10cd55a73f96cc1bc082fd6ee4fc946296c 9a651cabbb9934b216b1390528aa6b08f37e4108 9bfacd396c9dfac45d574c554f039344bb197f5e 9c6b6cba8f4608b6200cfd5c4a4c6528785f2b7f 9dab96491a765bf23517ca01b8e7348e9cccc353 9ed298bf3df7502b9437e2718b7533f50816a07d a2c3d7a8009dfa05cbe57e2dd7e1f273e239dcf5 a320a5a6bf36ed5d7f1da66aac1ef205261ecbe6 a3c0d0eb57c889d527a8ae0c93ee101921ce21b8 a754f51ce26b45820fd9bd02465016c8a2bb4efb a89eab410eeb083aa1817540a4af60a0995356b9 a968fd256f5c3dddaa191a5bc926c59c27ba1c67 a9ac5a3161e0fd2ac64ac9c4119f461c56aa2d83 aa506b55a3aa2a7c7ba1068dbb3f1494bced1950 aa9f63c85c231e7b617752ff8a0948ad41109a87 ab1cd521f229de98b563aaa9138bacc6765de227 ac2e1eff55b25bf7126534df40ef4eb893af47e3 ae6fd2beaabef474a2394d3edec4a7bb372c3662 b007dd7b568ec10dfa515a61d4fefcf9ecf9bf96 b09bfa39fe1439d55af3eabd1dcca9986dae6dd8 b15ea1bbf519f78107f5548ab5062e334863fbfc b2a106850a44ee043365a8f85d8db6cb1d0e0cdf b37c5176a54cc1f1505ed45bc3a0d8dc192a42a2 ba71c1ef79a7435d75befe43f199c623342b0818 baddddb7b5b079d6696a7911ecb5c713eef0bf4b bbd06ef391fd9b24cbfee265e02d9248751e50ea bf7087a231f22177d726fe6135909267e273e362 bfdf83d0f1c4168a920a1cd4bccd331fb0ac2cc1 c1398f125f06f0c9d6e0adaa83c63478c936b66f c178ab9f472c7bca358f1e34728a1f48f24ccbda c2bc5224c85f808af674cc9410c78d2a7a181f15 c31fbcc61a74e63fb3467bc7a1bacf0d8da4a7e7 c377daf3f67a6ac071d99640ac02094c4e1bd3ed c48b35ad2ba109846ae2a53d2da5008d95b6360c c7b0fb234734d97a981e57fab27f21c972d2daee c92662cb34fa2837a75fb5b0250fb58f644223b1 c9a193eec4f1b841fc46fcfeec1ccc06c4a6b00d ccce8b67afead16adac184d1e9ca3bb0c96c39a8 ccde02ba8b6a58dc975a6a3c9b30f85bcf7f81b2 cfa75a9c63922349c5cf7a1155fffbac47834c90 d139e96669075a1b8bb60f95e9159c92fc9d9385 d1c9d6d5d1c1971bfc13daae924b2907353eb887 d2c3122f522b943040c934537d728cd8c00cd0e1 d3e8f01ce41d54c52b927598f7a59d2334905431 d64913f1a7193cc87c447b1921afa9929ac760fa d6ecacc380c2e6bfa24f4120e83ab8bd6bd9a4d6 d951293a741700c38a39fa13fe55ab8e67d4eeff dbc3a3be607621998ea8d5d577e6e1d10887a201 dbce9a39a127476b6d756b7268f530ac45c33c80 ddde0c1d92a00e5dde510507d4f8198501e83adb de97d27bd839d04eb7e9b6a1411e5ac1f0ccb4a0 e20e877d8390a29451412f06b050827ba629a627 e241e21c4ded5e5130b9d23246680c574e4544d1 e5bc6c5968221fbeae5bb54db7c5f863c3624da5 ea2228efaaa7b08c222e53fb19a6b247ecb905e9 eaeba3a4cb082295570a320fbcbece6b828c5730 ecbdc21804da0f9253b42ebd16a35b9c7cc3e61c ed218a4b9f9f6cef96d8855381510461caea1291 ee44e9e938f9d9c08dc26ef31010096362a6057a efc059ccc63d321c45062092ed45bf78dd6bf133 f09f3edae5f35ee41e122fefca1f8f8b34421302 f2cdcf871d8a857baa7512f9f0bcf28ff8b38b85 f3813f7ed3564f5065a90bd817f66468246a337e f3aa0bd7c14cc475295b76adfbe1a906d4bbaf64 f41ea74c5f92c14adadddce903a2bec3a45a9bbf f4249e4c83c4ef5217889f036603637a342e34b7 f4f898ef843b908199e69e20383f3fb34bfdb004 f5ff976d93ea78207444a12efe67e2fd5795ec05 fd1ace8d686ab7e9dc1d934583eceadd02ea0f3e fd69d25cbe57f2631a4daea9a96df3a1b00dafad
+
+Package: collectd-utils
+Source: collectd
+Version: 5.12.0-7
+Architecture: amd64
+Maintainer: Collectd Packaging Team <team+collectd@tracker.debian.org>
+Installed-Size: 231
+Depends: libc6 (>= 2.17), libcollectdclient1 (>= 5.2.0)
+Recommends: collectd
+Replaces: collectd (<< 4.6.1-1~)
+Homepage: https://collectd.org/
+Priority: optional
+Section: utils
+Filename: pool/main/c/collectd/collectd-utils_5.12.0-7_amd64.deb
+Size: 149588
+SHA256: 53cf50d3c84a522dcc4979434a9fdd43d4bb6fdd645706758dabee4121e4704c
+SHA1: e3f79b357e6ba11ed2598a979b9d6bc2ee54d833
+MD5sum: ba7dbeda121b5026f32eafd24f132f5c
+Description: statistics collection and monitoring daemon (utilities)
+ collectd is a small daemon which collects system information periodically and
+ provides mechanisms to monitor and store the values in a variety of ways.
+ Since the daemon doesn't need to startup every time it wants to update the
+ values it's very fast and easy on the system. Also, the statistics are very
+ fine grained since the files are updated every 10 seconds by default.
+ .
+ This package contains the following utility:
+ .
+   * collectdctl: Control interface for collectd
+   * collectd-nagios: Nagios plugin for querying collectd
+
+Package: collectd-utils-dbgsym
+Source: collectd
+Version: 5.12.0-7
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Collectd Packaging Team <team+collectd@tracker.debian.org>
+Installed-Size: 67
+Depends: collectd-utils (= 5.12.0-7)
+Breaks: collectd-dbg (<< 5.9.2.g-2~)
+Replaces: collectd-dbg (<< 5.9.2.g-2~)
+Priority: optional
+Section: debug
+Filename: pool/main/c/collectd/collectd-utils-dbgsym_5.12.0-7_amd64.deb
+Size: 38884
+SHA256: 21ddfa166c582c8bfcf266c7d4ab1b08b2575f4a85d819ebd5d9e4eec3fb7aa3
+SHA1: 182d1ea3573b0451dd9c66f7c3c162228571024c
+MD5sum: f6cd0521a489482202ce58dfad4d7101
+Description: debug symbols for collectd-utils
+Build-Ids: 6135870fb6686a1caadcd283e8efd957c9e1f9cd b74247be232ceecbf7b44e9d24a261e4d85a39c2 eee7d771ca6ed5da871cf9510b2b38d3208d20b1
+
+Package: libcollectdclient-dev
+Source: collectd
+Version: 5.12.0-7
+Architecture: amd64
+Maintainer: Collectd Packaging Team <team+collectd@tracker.debian.org>
+Installed-Size: 188
+Depends: libcollectdclient1 (= 5.12.0-7)
+Breaks: collectd-dev (<< 5.2.0-1)
+Replaces: collectd-dev (<< 5.2.0-1)
+Homepage: https://collectd.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/c/collectd/libcollectdclient-dev_5.12.0-7_amd64.deb
+Size: 130136
+SHA256: 7ea1a60b5e73a63b8c4b00680c40f97f7c5fd29398b1708ed45bc3c2306326da
+SHA1: 444cca6e97478cde99e2c0f642bf6c60c8e76741
+MD5sum: e553ab9b6a7272f145b19ef855b2ebe4
+Description: client library for collectd's control interface (development files)
+ libcollectdclient provides an API to access the control interface provided by
+ the unixsock plugin of collectd, a statistics collection and monitoring
+ daemon. It can be used to access values collected by collectd or dispatch new
+ values and notifications to the daemon. This allows for integration with
+ other applications such as monitoring solutions.
+ .
+ This package contains the header files and the static library.
+
+Package: libcollectdclient1
+Source: collectd
+Version: 5.12.0-7
+Architecture: amd64
+Maintainer: Collectd Packaging Team <team+collectd@tracker.debian.org>
+Installed-Size: 209
+Depends: libc6 (>= 2.14), libgcrypt20 (>= 1.9.0)
+Suggests: collectd
+Homepage: https://collectd.org/
+Priority: optional
+Section: libs
+Filename: pool/main/c/collectd/libcollectdclient1_5.12.0-7_amd64.deb
+Size: 141428
+SHA256: 751af0ecf33da36454907100fa1954308298739819953ba2f819f7d5285b7a64
+SHA1: ba11e9a549227285db42b3a70018c8f3a3c73a66
+MD5sum: 3a0e6d437a21ca31b7da8dd318909f04
+Description: client library for collectd's control interface
+ libcollectdclient provides an API to access the control interface provided by
+ the unixsock plugin of collectd, a statistics collection and monitoring
+ daemon. It can be used to access values collected by collectd or dispatch new
+ values and notifications to the daemon. This allows for integration with
+ other applications such as monitoring solutions.
+ .
+ This package contains the shared library.
+
+Package: libcollectdclient1-dbgsym
+Source: collectd
+Version: 5.12.0-7
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Collectd Packaging Team <team+collectd@tracker.debian.org>
+Installed-Size: 73
+Depends: libcollectdclient1 (= 5.12.0-7)
+Breaks: collectd-dbg (<< 5.9.2.g-2~)
+Replaces: collectd-dbg (<< 5.9.2.g-2~)
+Priority: optional
+Section: debug
+Filename: pool/main/c/collectd/libcollectdclient1-dbgsym_5.12.0-7_amd64.deb
+Size: 57344
+SHA256: 63a27ea974c889b4695fc714f280f0893a0c7cf86e9e6d0e8da4c8a54d0339c2
+SHA1: c67d248d355b7a55ae4807b337c6b09d49a0b9df
+MD5sum: ee4d0acf3934bca8c09e608ef4f2ef7c
+Description: debug symbols for libcollectdclient1
+Build-Ids: 707701174143f26a412c937a8790fc5071a6a770
+
 Package: meta
 Version: 1.1
 Architecture: all
