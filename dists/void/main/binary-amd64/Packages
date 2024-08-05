@@ -418,6 +418,24 @@ SHA1: 2ecc49b1640bbcf9b4c289c963a71c51f6144f97
 MD5sum: 9abefe971436d8988a22bd0fec54de25
 Description: depend on my essential tools
 
+Package: openbytes-repo
+Version: 1.0-1
+Architecture: all
+Maintainer: Andre Klärner <kandre@ak-online.be>
+Installed-Size: 18
+Priority: standard
+Section: admin
+Filename: pool/main/o/openbytes-repo/openbytes-repo_1.0-1_all.deb
+Size: 5768
+SHA256: ef02c4ea926be3bf960ac064d78c0cebf2f18ab64567763dd8e07ff8a5ca69a6
+SHA1: 95d029954bde93e061e73ed6521901ab3ee894c8
+MD5sum: 9be4ad5ae051b401efd7f3c407b5428f
+Description: Provide the patchman repository of openbytes
+ This includes:
+ .
+ - the debian repository
+ - the trusted gpg keyring used for the repo
+
 Package: python-ifaddr
 Source: ifaddr
 Version: 0.1.4-1
