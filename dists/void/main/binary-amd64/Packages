@@ -19,18 +19,18 @@ Description: Provide the most apt defaults for ak-online.be machines
  - unattended-upgrades config
 
 Package: ak-online.be-sssd
-Version: 1.0-10
+Version: 1.1-1
 Architecture: all
 Maintainer: Andre Klärner <kandre@ak-online.be>
 Installed-Size: 12
 Depends: sssd-ldap, sssd-dbus, libnss-sss, libpam-sss, sssd-tools
 Priority: optional
 Section: base
-Filename: pool/main/a/ak-online.be-sssd/ak-online.be-sssd_1.0-10_all.deb
-Size: 2068
-SHA256: 94320aa5adcc7f322c66ca156a3ef6f74544e3ecf01d0b26e6561033bd61a3af
-SHA1: 14212b8a8a202d337a1f6b3b9c5885867d67f06b
-MD5sum: 3ff40b1e6466775c942833b724c93be6
+Filename: pool/main/a/ak-online.be-sssd/ak-online.be-sssd_1.1-1_all.deb
+Size: 2108
+SHA256: c95006fdca92800c448453fa56b20fd384ee6345b47496ca73192792bc1ab2aa
+SHA1: 053795362960a6159f01540da1273983f742c90f
+MD5sum: 03ddb29a469cb189e3f5e7a7d09ec413
 Description: Provide the sssd-config for ak-online.be's LDAP setup
 
 Package: ca-cacert
